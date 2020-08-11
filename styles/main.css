@@ -1,0 +1,129 @@
+/* General Styles */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: #262c2c;
+    font-family: 'Mulish', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, nav, footer {
+    text-transform: uppercase;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+
+/* Header & Nav Styles */
+
+header {
+    height: 100px;
+}
+
+header h1 {
+    float: left;
+    padding: 10px 30px 10px 0;
+}
+
+header span {
+    color: #596e79;
+}
+
+header nav {
+    float: right;
+    padding-right: 0;
+}
+
+header nav ul li {
+    display: inline-block;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 25px 0 0 40px;
+}
+
+nav a {
+    color: #c7b198;
+    list-style: none;
+    text-decoration: none;
+}
+nav a:hover {
+    border-bottom: 2px solid #c7b198;
+}
+
+
+/* Top Section Styles */
+
+.top-section img {
+    border-bottom: 3px solid #dfd3c3;
+    border-top: 3px solid #dfd3c3;
+    height: 250px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.greeting {
+    height: 150px;
+    padding-top: 20px;
+}
+
+.greeting h2 {
+    margin-top: 0;
+}
+
+#about-story {
+    height: 350px;
+}
+
+
+/* Bottom Section Styles */
+
+.bottom-section {
+    display: flex;
+    height: 200px;
+}
+
+.third-width {
+    border-bottom: 2px solid #f0ece3;
+    border-top: 2px solid #f0ece3;
+    padding: 10px 20px 0 20px;
+    width: 400px;
+}
+
+.special-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.special-list li {
+    padding-bottom: 10px;
+}
+
+.specials, .reviews {
+    border-right: 2px solid #f0ece3;
+}
+
+
+/* Footer Styles */
+
+footer {
+    height: 120px;
+    text-align: center;
+}
+
+footer p {
+    font-size: 20px;
+    margin-top: 0;
+    padding-top: 50px;
+}
+
+footer span {
+    color: #596e79;
+    font-family: 'Permanent Marker', cursive;
+}
